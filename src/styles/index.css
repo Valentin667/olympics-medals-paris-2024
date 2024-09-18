@@ -260,3 +260,63 @@ a:hover {
     opacity: 0;
   }
 }
+
+/** Responsive **/
+@media (max-width: 1200px) {
+  .card {
+    width: calc(100% - 2rem);
+  }
+}
+
+@media (max-width: 950px) {
+  :root {
+    /* Why 38 ? graph width = (12 * stroke) * 3 + 2 */
+    --stroke: calc((100vw - 6rem) / 38);
+  }
+}
+
+@media (max-height: 700px) {
+  :root {
+    --stroke: 1rem;
+  }
+}
+
+/* Screen is too narrow, we need a scrollbar */
+/* @media (max-height: 600px) {
+  body {
+    overflow-y: scroll;
+  }
+  .card {
+    padding: 1rem;
+    margin-block: 1rem;
+    height: auto;
+  }
+} */
+
+/* Mobile layout */
+@media (max-width: 620px) {
+  /* :root {
+    --stroke: min(calc((100vw - 4rem) / 12), 1.2rem);
+  } */
+  body {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(/poster-mobile.jpg) center center / cover no-repeat,
+      linear-gradient(135deg, #9bc8c5, #f6ead2, #a2deaa);
+  }
+  h1,
+  aside {
+    padding-inline: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .continent h2 {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .continent__medals {
+    gap: 0.3rem;
+}
+}
