@@ -281,23 +281,8 @@ a:hover {
   }
 }
 
-/* Screen is too narrow, we need a scrollbar */
-/* @media (max-height: 600px) {
-  body {
-    overflow-y: scroll;
-  }
-  .card {
-    padding: 1rem;
-    margin-block: 1rem;
-    height: auto;
-  }
-} */
-
 /* Mobile layout */
 @media (max-width: 620px) {
-  /* :root {
-    --stroke: min(calc((100vw - 4rem) / 12), 1.2rem);
-  } */
   body {
     background:
       linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
