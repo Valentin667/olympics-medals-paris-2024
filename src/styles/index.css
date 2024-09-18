@@ -259,7 +259,6 @@ a:hover {
     transform: translateY(40px);
     opacity: 0;
   }
-<<<<<<< HEAD
 }
 
 /** Responsive **/
@@ -305,6 +304,4 @@ a:hover {
   .continent__medals {
     gap: 0.3rem;
 }
-=======
->>>>>>> 86b5aff770538830b1081fe14e9a2ac1dcb88e39
 }
