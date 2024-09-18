@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run fetch && tsc -b && vite build",
+    "build": "node ./src/tools/fetcher.js && tsc -b && vite build",
     "preview": "vite preview",
     "fetch": "node ./src/tools/fetcher.js"
   },
