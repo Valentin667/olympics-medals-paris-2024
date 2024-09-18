@@ -25,7 +25,7 @@ async function main() {
       total: parseInt(cells[6].textContent.trim(), 10),
     });
   }
-  writeFileSync("./src/continents.json", JSON.stringify(continents, null, 2));
+  writeFileSync("./src/utils/continents.json", JSON.stringify(continents, null, 2));
   console.log("Medals.json generated with success");
 }
 

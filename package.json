@@ -10,6 +10,7 @@
     "fetch": "node ./src/tools/fetcher.js"
   },
   "dependencies": {
+    "jsdom": "^25.0.0",
     "vue": "^3.4.29"
   },
   "devDependencies": {
