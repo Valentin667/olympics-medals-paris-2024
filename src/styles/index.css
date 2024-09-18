@@ -262,12 +262,6 @@ a:hover {
 }
 
 /** Responsive **/
-@media (max-width: 1200px) {
-  .card {
-    width: calc(100% - 2rem);
-  }
-}
-
 @media (max-width: 950px) {
   :root {
     /* Why 38 ? graph width = (12 * stroke) * 3 + 2 */
